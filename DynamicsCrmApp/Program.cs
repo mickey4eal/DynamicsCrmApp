@@ -11,7 +11,7 @@ namespace DynamicsCrmApp
     {
         static void Main(string[] args)
         {
-            const string Value = "Demo Dynamics CRM Application!\n\nPlease Enter Start to Initiate Connection to Dynamics CRM and Create a New Account";
+            const string Value = "Welcome to Demo Dynamics CRM Application!\n\nPlease Enter Start to Initiate Connection to Dynamics CRM and Create a New Account";
             Console.WriteLine(Value);
 
             string command;

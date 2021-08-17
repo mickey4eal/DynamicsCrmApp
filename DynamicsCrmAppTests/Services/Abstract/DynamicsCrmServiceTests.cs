@@ -105,7 +105,7 @@ namespace DynamicsCrmApp.Services.Abstract.Tests
             //ACT - do the thing(s) we want to test  
 
             //call the CreateCrmAccount2 method like usual, but supply the mock service as an invocation parameter  
-            new DynamicsCrmService(service).CreateCrmAccount2(accountName);
+            new DynamicsCrmService(service).CreateCrmAccountAndRetrieveEntity(accountName);
 
             //ASSERT - verify the results are correct  
 
